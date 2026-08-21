@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stefanie | Analista de Dados</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="#inicio">
+                <span>&lt;/&gt;</span> Stefanie
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarContent"
+                aria-controls="navbarContent"
+                aria-expanded="false"
+                aria-label="Abrir menu"
+            >
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacao">Formação</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificados">Certificados</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <button
+                            id="themeToggle"
+                            class="theme-toggle"
+                            type="button"
+                            aria-label="Alternar tema"
+                        >
+                            <i class="bi bi-sun-fill"></i>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero-section">
+
+        <div class="container">
+            <div class="row align-items-center min-vh-100 g-5">
+
+                <div class="col-lg-7">
+
+                    <span class="hero-tag">
+                        <i class="bi bi-terminal-fill"></i>
+                        Portfólio profissional
+                    </span>
+
+                    <p class="hero-intro">
+                        Olá, eu sou
+                    </p>
+
+                    <h1 class="hero-title">
+                        Stefanie<span>.</span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        <span id="typingText"></span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Sou estudante e profissional em formação na área de
+                        Análise de Dados, interessada em transformar informações
+                        em insights que apoiem decisões e soluções de negócio.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projetos" class="btn btn-neon">
+                            <i class="bi bi-grid-3x3-gap-fill"></i>
+                            Conheça meus projetos
+                        </a>
+
+                        <a href="#contato" class="btn btn-outline-neon">
+                            <i class="bi bi-chat-dots"></i>
+                            Entre em contato
+                        </a>
+
+                    </div>
+
+                    <div class="hero-location">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Sertãozinho - SP
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5 text-center">
+
+                    <div class="hero-image-wrapper">
+
+                        <div class="cyber-frame">
+
+                            <div class="frame-corner top-left"></div>
+                            <div class="frame-corner top-right"></div>
+                            <div class="frame-corner bottom-left"></div>
+                            <div class="frame-corner bottom-right"></div>
+
+                            <img
+                                src="assets/img.jpeg"
+                                class="hero-image"
+                                alt="Imagem de perfil de Stefanie"
+                            >
+
+                        </div>
+
+                        <div class="floating-badge badge-one">
+                            <i class="bi bi-bar-chart-fill"></i>
+                            DATA
+                        </div>
+
+                        <div class="floating-badge badge-two">
+                            <i class="bi bi-database-fill"></i>
+                            ANALYTICS
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-grid"></div>
+
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="section-number">01</span>
+                <p class="section-label">Sobre mim</p>
+
+                <h2>
+                    Transformando <span>dados</span> em possibilidades.
+                </h2>
+            </div>
+
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-7">
+
+                    <div class="about-card">
+
+                        <div class="terminal-header">
+
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+
+                            <span class="terminal-title">
+                                about_me.exe
+                            </span>
+
+                        </div>
+
+                        <div class="terminal-body">
+
+                            <p class="terminal-line">
+                                <span>$</span>
+                                perfil --carregar
+                            </p>
+
+                            <p>
+                                Sou estudante e profissional em formação na área
+                                de <strong>Análise de Dados</strong>, interessada
+                                em transformar informações em insights que apoiem
+                                decisões e soluções de negócio.
+                            </p>
+
+                            <p>
+                                Tenho interesse em análise, organização e
+                                visualização de dados, buscando desenvolver
+                                projetos práticos e aprimorar continuamente
+                                minhas habilidades em tecnologia e dados.
+                            </p>
+
+                            <p class="terminal-success">
+                                <i class="bi bi-check-circle-fill"></i>
+                                Perfil carregado com sucesso.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5">
+
+                    <div class="about-highlight">
+
+                        <div class="highlight-icon">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+
+                        <h3>Foco profissional</h3>
+
+                        <p>
+                            Desenvolver conhecimentos em análise,
+                            organização e visualização de dados.
+                        </p>
+
+                        <div class="mini-line"></div>
+
+                        <span class="highlight-tag">
+                            #DataAnalytics
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section-padding skills-section">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <span class="section-number">02</span>
+
+                <p class="section-label">
+                    Habilidades
+                </p>
+
+                <h2>
+                    Tecnologias em <span>aprendizado</span>.
+                </h2>
+
+                <p class="section-subtitle">
+                    Tecnologias e ferramentas que fazem parte da minha formação.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-6 col-md-4 col-lg">
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-html"></i>
+                        </div>
+
+                        <h3>HTML</h3>
+
+                        <span>Web</span>
+
+                    </article>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg">
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="bi bi-cup-hot-fill"></i>
+                        </div>
+
+                        <h3>Java</h3>
+
+                        <span>Programação</span>
+
+                    </article>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg">
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="bi bi-bootstrap-fill"></i>
+                        </div>
+
+                        <h3>Bootstrap</h3>
+
+                        <span>Framework</span>
+
+                    </article>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg">
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                        </div>
+
+                        <h3>Excel</h3>
+
+                        <span>Dados</span>
+
+                    </article>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg">
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="bi bi-bar-chart-fill"></i>
+                        </div>
+
+                        <h3>Power BI</h3>
+
+                        <span>Visualização</span>
+
+                    </article>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-number">03</span>
+
+                <p class="section-label">
+                    Projetos
+                </p>
+
+                <h2>
+                    Em breve, <span>novos projetos</span>.
+                </h2>
+
+                <p class="section-subtitle">
+                    Ainda não possuo projetos para apresentar.
+                    Esta área está preparada para receber meus
+                    próximos trabalhos.
+                </p>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <article class="empty-project-card">
+
+                        <div class="project-icon">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+
+                        <span class="project-status">
+                            <span></span>
+                            Em desenvolvimento
+                        </span>
+
+                        <h3>
+                            Seu próximo projeto pode estar aqui.
+                        </h3>
+
+                        <p>
+                            Este espaço está reservado para futuros projetos
+                            de análise de dados, dashboards, estudos ou outras
+                            experiências profissionais.
+                        </p>
+
+                        <div class="project-placeholder">
+                            <i class="bi bi-plus-lg"></i>
+                            Adicionar projeto futuramente
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="section-padding formation-section">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <span class="section-number">04</span>
+
+                <p class="section-label">
+                    Formação
+                </p>
+
+                <h2>
+                    Construindo minha <span>jornada</span>.
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <div class="timeline-marker">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            Conclusão prevista: 2027
+                        </span>
+
+                        <h3>ADOT</h3>
+
+                        <p>
+                            Formação em andamento.
+                        </p>
+
+                        <span class="status-badge">
+                            <i class="bi bi-circle-fill"></i>
+                            Cursando
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CERTIFICADOS -->
+    <section id="certificados" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-number">05</span>
+
+                <p class="section-label">
+                    Certificados
+                </p>
+
+                <h2>
+                    Conhecimento em <span>evolução</span>.
+                </h2>
+
+            </div>
+
+
+            <div class="certificate-empty">
+
+                <div class="certificate-icon">
+                    <i class="bi bi-award-fill"></i>
+                </div>
+
+                <h3>
+                    Nenhum certificado cadastrado
+                </h3>
+
+                <p>
+                    Novos certificados poderão ser adicionados aqui
+                    conforme minha trajetória profissional avançar.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="section-padding contact-section">
+
+        <div class="container">
+
+            <div class="contact-card">
+
+                <div class="contact-content">
+
+                    <span class="section-label">
+                        06 — Contato
+                    </span>
+
+                    <h2>
+                        Vamos criar algo
+                        <span>incrível?</span>
+                    </h2>
+
+                    <p>
+                        Meus canais profissionais ainda serão adicionados.
+                        Em breve, você poderá encontrar aqui meus links
+                        profissionais.
+                    </p>
+
+                    <div class="contact-placeholder">
+
+                        <i class="bi bi-link-45deg"></i>
+
+                        <span>
+                            GitHub, LinkedIn ou e-mail profissional
+                            poderão ser adicionados aqui.
+                        </span>
+
+                    </div>
+
+                    <div class="contact-location">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        Sertãozinho - SP
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div>
+
+                <a href="#inicio" class="footer-brand">
+                    Stefanie<span>.</span>
+                </a>
+
+                <p>
+                    Analista de Dados
+                </p>
+
+            </div>
+
+            <div class="footer-tech">
+
+                <p>
+                    © 2026 Stefanie
+                </p>
+
+                <span>
+                    Portfólio desenvolvido com HTML, CSS,
+                    JavaScript e Bootstrap.
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- VOLTAR AO TOPO -->
+<button
+    id="backToTop"
+    class="back-to-top"
+    type="button"
+    aria-label="Voltar ao topo"
+>
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Seu JavaScript -->
+<script src="assets/program.js"></script>
+
+</body>
+</html>
